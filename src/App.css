@@ -1,0 +1,19 @@
+@import "tailwindcss";
+:root {
+  --primary-color: #8b5cf6;
+  --secondary-color: #6366f1;
+  --background-color: #0e0e0e;
+  --text-color: #ffffff;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-white {
+  color: var(--text-color);
+}
