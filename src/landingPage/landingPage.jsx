@@ -1,4 +1,5 @@
 import Header from "../landingPage/header.jsx";
+import Hero from "../landingPage/hero.jsx";
 
 const landingpage = () => {
   return (
@@ -8,6 +9,7 @@ const landingpage = () => {
       bg-[size:48px_48px]"
     >
       <Header />
+      <Hero />
     </div>
   );
 };

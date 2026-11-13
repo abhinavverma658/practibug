@@ -7,7 +7,7 @@ const Header = () => {
           href="/"
           className="flex items-center gap-2 text-xl font-medium text-white"
         >
-          <img src={logo} alt="Practi Logo" class="w-12 h-12" />
+          <img src={logo} alt="Practi Logo" className="w-12 h-12" />
           <span>
             Practi<span className="text-primary">&lt;Bug&gt;</span>
           </span>
