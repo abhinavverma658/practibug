@@ -1,5 +1,6 @@
 import Header from "../landingPage/header.jsx";
 import Hero from "../landingPage/hero.jsx";
+import Footer from "../landingPage/footer.jsx";
 
 const landingpage = () => {
   return (
@@ -10,6 +11,7 @@ const landingpage = () => {
     >
       <Header />
       <Hero />
+      <Footer />
     </div>
   );
 };
