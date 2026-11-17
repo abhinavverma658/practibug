@@ -1,8 +1,8 @@
 import logo from "../assets/practibug_logo.webp";
 const Header = () => {
   return (
-    <header className="header absolute top-3 left-0 w-full z-50">
-      <div className="max-w-5xl header__logo flex items-center justify-between mx-auto py-2 px-5 bg-gray-900/40 shadow-md shadow-gray-500 dark:shadow-none dark:bg-gray-900/40 backdrop-blur-2xl rounded-full shadow-md ">
+    <header className="header sticky top-3 left-0 w-full z-50">
+      <div className="w-96 md:w-full md:max-w-5xl header__logo flex items-center justify-between mx-auto py-2 px-5 bg-gray-900/40 shadow-gray-500 dark:shadow-none dark:bg-gray-900/40 backdrop-blur-2xl rounded-full shadow-md ">
         <a
           href="/"
           className="flex items-center gap-2 text-xl font-medium text-white"

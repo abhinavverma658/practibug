@@ -3,7 +3,7 @@ import {useSubmission} from "../customHooks/useSubmission.js";
 const Hero = () => {
     useSubmission();
     return (
-        <div className="flex min-h-screen w-full flex-col items-center justify-center px-4 pt-40 py-20 sm:pt-40 sm:pb-20">
+        <div className="flex min-h-screen w-full flex-col items-center justify-center px-4 pt-10 py-20 sm:pt-25 sm:pb-20">
             <div className="rounded-full bg-[#111111] text-base p-3  border border-[#8b5cf6] mb-4 flex items-center gap-2" >
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <p className="text-center text-sm font-semibold text-primary rounded-full">
